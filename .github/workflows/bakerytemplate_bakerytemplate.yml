@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'BakeryTemplate'
           slot-name: 'Production'
-          publish-profile: ${{publishProfile profileName="BakeryTemplate"}}
+          publish-profile: ${{publishProfileeName="BakeryTemplate"}}
           package: .
